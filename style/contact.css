@@ -1,0 +1,54 @@
+* {
+  background-color: #ffc744;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+
+.hover {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hover:hover {
+  color: #ffc744;
+  background-color: white;
+}
+
+.m {
+  font-size: 22px;
+}
+
+#logo {
+  border-radius: 10px;
+  border: 10px solid black;
+}
+
+#hover {
+  color: black;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#hover:hover {
+  color: white;
+  background-color: #ffc744;
+}
+
+footer {
+  background-color: white;
+  border: 10px solid black;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.footer {
+  background-color: white;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: bold;
+}

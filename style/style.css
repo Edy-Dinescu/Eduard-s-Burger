@@ -1,0 +1,61 @@
+* {
+    background-color: #ffc744;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .hover {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .hover:hover {
+    color: #ffc744;
+    background-color: white;
+  }
+  
+  #logo {
+    border-radius: 10px;
+    border: 10px solid black;
+  }
+
+  #hover {
+    color: black;
+    background-color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  
+  #hover:hover {
+    color: white;
+    background-color: #ffc744;
+  }
+  
+  footer {
+    background-color: white;
+    border: 10px solid black;
+    font-family: monospace;
+    font-size: 17px;
+  }
+  
+  .footer {
+    background-color: white;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+  }

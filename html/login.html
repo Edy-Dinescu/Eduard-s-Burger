@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../style/login.css" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html" target="_black"
+          ><img
+            src="../png/Eduard's burger logo.png"
+            alt="Eduard's Burger logo"
+            id="logo"
+            height="400px"
+            width="400px"
+        /></a>
+        <br />
+        <a href="./index.html" class="hover">Back</a>
+        <br />
+        <a href="./yes-or-no-account.html" class="hover">I have a account?</a>
+      </nav>
+      <h1>Login</h1>
+    </header>
+    <br />
+    <main>
+      <form action="./valid-login.js" method="post">
+        <section class="email">
+          <label for="email">Enter your email:</label>
+          <input type="email" name="email" id="email" required />
+        </section>
+        <br />
+        <section class="password">
+          <label for="password">Enter your password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            minlength="8"
+            maxlength="20"
+            required
+          />
+        </section>
+        <br />
+        <section class="A magic numbre is:">
+          <label for="MN">Select a number:</label>
+          <input type="range" name="MN" id="MN" value="5" min="1" max="10" step="1">
+        </section>
+        <br>
+        <section class="submit">
+          <input type="submit" name="submit" id="submit" />
+        </section>
+      </form>
+    </main>
+    <br />
+    <footer>
+      <br />
+      <span class="footer">
+        This website is created by Eduard
+        <a href="./contact.html" id="hover">Contact</a>
+      </span>
+      <br />
+    </footer>
+  </body>
+</html>
